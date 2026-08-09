@@ -9,16 +9,15 @@ topology-preserving representation.
 
 ## Contents
 
-- `trn_experiments.ipynb` - the full pipeline as a single annotated
+- `trn_experiments.ipynb` — the full pipeline as a single annotated
   notebook: data generation and loading (Module 1), the TRN
   implementation from scratch (Module 2), representation extraction
   (Module 3), the metric suite including the primary Option-B
   graph-path distance (Module 4), the experiment harness (Module 5),
   analysis and statistics including the aligned-rank-transform ANOVA
-  (Module 6), and the orthonormal-embedding control (Module 8).
-- `generate_figures.py` - builds the dissertation's four figures from
-  the saved results files.
-- `requirements.txt` - dependencies (Colab runtime versions).
+  (Module 6), the orthonormal-embedding control (Module 8), and the
+  figure-generation cell that builds the dissertation's four figures.
+- `requirements.txt` — dependencies (pinned to the Colab runtime).
 
 ## Reproducing
 
